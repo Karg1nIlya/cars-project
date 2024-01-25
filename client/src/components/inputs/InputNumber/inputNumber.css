@@ -1,0 +1,39 @@
+.input-number {
+    width: 100%;
+}
+
+.input-number-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.input-number__input {
+    padding: 10px;
+    border: none;
+    width: 98%;
+    background-color: inherit;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.input-number__input:focus {
+    outline: none;
+}
+
+.input-number__attention {
+    color: red;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.input-number__unit {
+
+}
+
+.input-number__alert {
+    color: grey;
+    margin-top: 2px;
+}

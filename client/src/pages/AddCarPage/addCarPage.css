@@ -1,0 +1,77 @@
+.add-car-page {
+   width: 100%;
+   /* height: 100vh; */
+}
+
+.add-car-page__wrapper {
+    width: 1500px;
+    height: 100%;
+    height: 900px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+   
+}
+
+.add-car-page__content {
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    height: 84%;
+    padding: 25px;
+}
+
+.add-car-page__title {
+    font-size: 24px;
+    font-weight: 600;
+    height: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.add-car-page__action-btns {
+    display: flex;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.add-car-page-button {
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.add-car-page__cancel-btn {
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-car-page__early-btn {
+    background-color: white;
+    border: 1px solid rgb(144, 208, 245);
+    color: grey;
+}
+
+.add-car-page__early-btn--active {
+    background-color: white;
+    border: 1px solid rgb(0, 160, 252);
+    cursor: pointer;
+}
+
+.add-car-page__add-btn, .add-car-page__next-btn {
+    border: 1px solid rgb(144, 208, 245);
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(144, 208, 245);
+    color: white;
+}
+
+.add-car-page__add-btn--active, .add-car-page__next-btn--active {
+    border: 1px solid rgb(0, 160, 252);
+    background-color: rgb(0, 160, 252);
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}

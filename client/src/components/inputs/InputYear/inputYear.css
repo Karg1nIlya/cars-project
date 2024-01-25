@@ -1,0 +1,21 @@
+.input-year {
+    display: flex;
+    align-items: center;
+}
+
+.input-year__input {
+    background-color: rgb(204, 204, 204);
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.input-year__input:focus {
+    outline: none;
+}
+
+.input-year__attention {
+    color: red;
+    margin-left: 10px;
+}

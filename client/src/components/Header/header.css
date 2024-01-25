@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    
+    background-color: rgb(0, 160, 252);
+    position: sticky;
+    transition: top 0.3s;
+}
+
+.header-content {
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 60px;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+
+}
+
+.header__login-btn {
+
+}
+
+.header__logout {
+    display: flex;
+}
+
+.header__logout-btn {
+    width: 20px;
+    height: 20px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    margin-right: 7px;
+}
+
+.header__logout-img {
+    width: 20px;
+    height: auto;
+}

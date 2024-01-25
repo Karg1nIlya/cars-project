@@ -1,0 +1,51 @@
+.add-car-step1 {
+
+}
+
+.add-car-step1__item {
+    min-height: 105px;
+}
+
+.add-car-step1__label {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.add-car-step1__add-img-btn {
+    border: none;
+    background-color: rgb(20, 158, 233);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-car-step1__images {
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-car-step1__images:hover {
+    overflow-y: auto;
+}
+
+.add-car-step1__images-empty {
+    text-align: center;
+    font-size: 20px;
+}
+
+.add-car-step1__images::-webkit-scrollbar {
+    max-width: 6px;               /* ширина scrollbar */
+    max-height: 50px;
+}
+.add-car-step1__images::-webkit-scrollbar-thumb {
+    background-color: rgb(241, 242, 246);    /* цвет плашки */
+    border-radius: 15px;       /* закругления плашки */
+    border: 1.6px solid rgb(241, 242, 246);  /* padding вокруг плашки */
+}

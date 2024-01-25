@@ -1,0 +1,43 @@
+.alert {
+    position: fixed;
+    display: flex;
+    min-width: 150px;
+    max-width: 300px;
+    align-items: center;
+    padding: 20px 10px;
+    opacity: 0;
+    margin:auto;
+    left:0;
+    right:0;
+    z-index: 2;
+    transition: all 0.2s ease-in-out;
+}
+
+.alert-error-bcg {
+    background-color: rgb(255, 127, 127);
+}
+
+.alert-success-bcg {
+    background-color: rgb(127, 255, 138);
+}
+
+.alert__text {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.alert__close-btn {
+    width: 20px;
+    height: 20px;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.alert-error {
+    color: rgb(135, 0, 0);
+}
+
+.alert-success {
+    color: rgb(0, 136, 11);
+}

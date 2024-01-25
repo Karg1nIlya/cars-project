@@ -1,0 +1,34 @@
+.input-text {
+    width: 100%;
+}
+
+.input-text-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.input-text__input {
+    padding: 10px;
+    border: none;
+    width: 98%;
+    background-color: inherit;
+    font-size: 20px;
+}
+
+.input-text__input:focus {
+    outline: none;
+}
+
+.input-text__attention {
+    color: red;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.input-text__alert {
+    color: grey;
+    margin-top: 2px;
+}
